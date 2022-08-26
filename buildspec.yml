@@ -6,5 +6,6 @@ phases:
       - mvn install
       
 artifacts:
-  - '**/*'
-  - appspec.yml
+  files:
+    - '**/*'
+    - appspec.yml
